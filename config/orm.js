@@ -22,12 +22,9 @@ function objToSql(ob) {
         arr.push(key + "=" + value);
       }
     }
-  
-    // translate array of strings to a single comma-separated string
     return arr.toString();
 }
   
-  // Object for all our SQL statement functions.
   var orm = {
     all: function(tableInput, cb) {
       var queryString = "SELECT * FROM " + tableInput + ";";
