@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1"
-  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -22,5 +18,9 @@
     "url": "https://github.com/AlanFord9/burger/issues"
   },
   "homepage": "https://github.com/AlanFord9/burger#readme",
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "mysql": "^2.18.1"
+  }
 }
